@@ -56,7 +56,7 @@ def check_ip(ip):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python bloom_filter.py <IP>")
+        print("Usage: python bloom_defenser.py <IP>")
         sys.exit(1)
 
     ip_to_check = sys.argv[1]
